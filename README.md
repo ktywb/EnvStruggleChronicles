@@ -7,7 +7,7 @@ sudo ln -s /lib/x86_64-linux-gnu/libtinfo.so.6 /lib/x86_64-linux-gnu/libtinfo.so
 ```
 
 ## 在 orbstack 使用 vivado
-### 终端
+### CLI
 在终端中使用 vivado 可能需要在 vivado 前加上 LD_PRELOAD 参数
 ```
 PRELOAD_LIB = /lib/x86_64-linux-gnu/libudev.so.1:/lib/x86_64-linux-gnu/libselinux.so.1
